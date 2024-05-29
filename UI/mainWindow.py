@@ -68,11 +68,11 @@ class UI_mainWindow(QMainWindow):
         # self.plot_widget_3.plot.set_ylabel("Значение")
 
         # настройка включения второго окна
-        self.info_button.triggered.connect(lambda: self.info_window("my_info.pdf"))
+        self.info_button.triggered.connect(lambda: self.info_window("m_i.pdf"))
 
         # Чтобы сразу запустить
-        self.input_n.setText(str("5"))
-        self.input_m.setText(str("5"))
+        self.input_n.setText(str("6"))
+        self.input_m.setText(str("6"))
         self.Nmax.setText(str("1000"))
         self.eps_met.setText(str("0.01"))
         self.Nmax2.setText(str("1000"))
